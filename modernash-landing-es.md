@@ -1,18 +1,21 @@
+
 <p align="center">
   <img src="assets/logo.png" alt="ModernAsh logo – símbolo minimalista de un ave/phoenix emergiendo de cenizas con degradado naranja/rojo y la palabra ModernAsh en tipografía sans moderna" width="220">
 </p>
 
 # ModernAsh – Modernización inteligente de aplicaciones legacy en AWS
 
-Modernizá tus aplicaciones legacy (COBOL, mainframe y más) a **Java o Python sobre AWS** con un **PoC piloto de bajo costo**, asistido por IA, que incluye código moderno, tests automatizados y documentación lista para tu equipo.
+Modernizá tus aplicaciones legacy (COBOL, mainframe y más) a **Java, Python o Node.js sobre AWS** con un **PoC de bajo costo**, asistido por IA, que incluye código moderno, tests automatizados y documentación lista para tu equipo.  
+También te ayudamos a **actualizar aplicaciones Java existentes desde versiones antiguas a versiones modernas LTS**, con arquitectura actualizada y lista para AWS.
 
 ---
 
 ## El problema
 
-- Aplicaciones legacy críticas, difíciles de mantener
-- Costos crecientes de infraestructura y perfiles especializados
-- Riesgo operativo y tecnológico por obsolescencia
+- Aplicaciones legacy críticas, difíciles de mantener  
+- Costos crecientes de infraestructura y perfiles especializados  
+- Riesgo operativo y tecnológico por obsolescencia  
+- Aplicaciones Java atadas a versiones antiguas, sin aprovechar las versiones modernas del lenguaje y del runtime  
 - Falta de visibilidad clara sobre esfuerzo, costo y riesgo de modernizar
 
 ---
@@ -21,59 +24,63 @@ Modernizá tus aplicaciones legacy (COBOL, mainframe y más) a **Java o Python s
 
 **ModernAsh** es una empresa de consultoría y servicios que se especializa en:
 
-- Migrar y modernizar aplicaciones legacy hacia **arquitecturas modernas** en **Java o Python**
-- Desplegar esas soluciones sobre **Amazon Web Services (AWS)**
-- Usar **IA + experiencia real en migraciones** para acelerar el proceso sin perder control ni calidad
+- Migrar y modernizar aplicaciones legacy hacia **arquitecturas modernas** en **Java, Python o Node.js**  
+- Desplegar esas soluciones sobre **Amazon Web Services (AWS)**  
+- Usar **IA + experiencia real en migraciones** para acelerar el proceso sin perder control ni calidad  
+- **Actualizar aplicaciones Java ya existentes**, pasando de versiones viejas (por ejemplo Java 6/7/8) a versiones modernas LTS, con un rediseño arquitectónico alineado con buenas prácticas actuales
 
-Nuestro servicio estrella es un **PoC piloto de bajo costo** que te permite probar la modernización en un módulo real, con **mínimo riesgo y máxima visibilidad**.
+Nuestro servicio estrella es un **PoC de bajo costo** que te permite probar la modernización en un módulo real, con **mínimo riesgo y máxima visibilidad**.
 
 ---
 
-## PoC piloto de bajo costo (AI-Assisted)
+## PoC de bajo costo (AI-Assisted)
 
 ### ¿Qué hacemos en el PoC?
 
-- Tomamos un **módulo representativo** de tu aplicación legacy (hasta *X.000* líneas de código)
-- Lo analizamos con herramientas de **IA + análisis estático tradicional**
-- Lo migramos a **Java o Python**, aplicando **buenas prácticas de diseño y arquitectura moderna**
-- Lo desplegamos sobre **AWS** (contenedores, serverless o la opción que mejor encaje)
-- Construimos una **batería de tests de unidad e integración**
+- Tomamos un **módulo representativo** de tu aplicación legacy (hasta *X.000* líneas de código)  
+- Lo analizamos con herramientas de **IA + análisis estático tradicional**  
+- Lo migramos a **Java, Python o Node.js**, aplicando **buenas prácticas de diseño y arquitectura moderna**  
+- En entornos Java, podemos **actualizar de versiones antiguas a versiones modernas LTS** y mejorar la arquitectura existente  
+- Lo desplegamos sobre **AWS** (contenedores, serverless o la opción que mejor encaje)  
+- Construimos una **batería de tests de unidad e integración**  
 - Documentamos todo en tu **repositorio de código destino**
 
 ### ¿Qué obtenés?
 
-- Código moderno, limpio y modular
-- Arquitectura y diseño **actuales** (layered, hexagonal, microservicios, etc. según el caso)
-- **Tests automatizados** (unitarios e integración) listos para tu pipeline CI/CD
+- Código moderno, limpio y modular  
+- Arquitectura y diseño **actuales** (layered, hexagonal, microservicios, etc. según el caso)  
+- **Tests automatizados** (unitarios e integración) listos para tu pipeline CI/CD  
 - Documentación completa en el repo:
-    - Diagramas UML
-    - Gráficos de arquitectura (C4, context, deployment, etc.)
-    - `README.md` y HOWTOs para ejecutar, testear y desplegar
-- Un **roadmap de modernización** con esfuerzos estimados y riesgos
+  - Diagramas UML  
+  - Gráficos de arquitectura (C4, context, deployment, etc.)  
+  - `README.md` y HOWTOs para ejecutar, testear y desplegar  
+- Un **roadmap de modernización** con esfuerzos estimados y riesgos  
+- En el caso de Java, una **ruta clara de actualización de versión + arquitectura**, evitando reescrituras innecesarias
 
 ---
 
 ## Cómo trabajamos
 
-1. **Descubrimiento & alcance**
-    - Reuniones remotas para entender tu entorno legacy, restricciones y prioridades
-    - Selección del módulo a modernizar y definición de criterios de éxito
+1. **Descubrimiento & alcance**  
+   - Reuniones remotas para entender tu entorno legacy, restricciones y prioridades  
+   - Selección del módulo a modernizar y definición de criterios de éxito
 
-2. **Análisis asistido por IA**
-    - Inventario de código, complejidad y dependencias
-    - Identificación de “quick wins” y puntos de riesgo
+2. **Análisis asistido por IA**  
+   - Inventario de código, complejidad y dependencias  
+   - Identificación de “quick wins” y puntos de riesgo
 
-3. **Modernización + arquitectura moderna**
-    - Refactor y migración a Java/Python con patrones modernos de diseño
-    - Arquitectura enfocada en cloud-native sobre AWS
+3. **Modernización + arquitectura moderna**  
+   - Refactor y migración a **Java, Python o Node.js** con patrones modernos de diseño  
+   - Para Java existente: actualización de versión + mejora arquitectónica  
+   - Arquitectura enfocada en cloud-native sobre AWS
 
-4. **Testing & documentación**
-    - Creación de **tests unitarios e integración**
-    - Documentación completa (UML, diagramas, README, HOWTOs) en tu repositorio
+4. **Testing & documentación**  
+   - Creación de **tests unitarios e integración**  
+   - Documentación completa (UML, diagramas, README, HOWTOs) en tu repositorio
 
-5. **Demo + roadmap**
-    - Demo técnica y funcional
-    - Entrega del roadmap para una modernización completa, faseada y realista
+5. **Demo + roadmap**  
+   - Demo técnica y funcional  
+   - Entrega del roadmap para una modernización completa, faseada y realista
 
 ---
 
@@ -94,24 +101,27 @@ Nuestro servicio estrella es un **PoC piloto de bajo costo** que te permite prob
 - **Integración con el ecosistema AWS**  
   Diseñamos pensando en los servicios nativos de AWS y en tu estrategia de cloud a largo plazo.
 
+- **Modernización de Java existente**  
+  No solo migramos desde COBOL: también **evolucionamos tus aplicaciones Java actuales** hacia nuevas versiones y arquitecturas modernas en AWS.
+
 ---
 
 ## Publicado en AWS Marketplace
 
 ModernAsh publica sus servicios como **Professional Services** en **AWS Marketplace**, lo que te permite:
 
-- Contratar el PoC de modernización con un proceso de compra estándar AWS
-- Centralizar facturación e integración con tus cuentas AWS
+- Contratar el PoC de modernización con un proceso de compra estándar AWS  
+- Centralizar facturación e integración con tus cuentas AWS  
 - Escalar luego a un contrato de modernización completa mediante **Private Offer**
 
 ---
 
 ## Próximos pasos
 
-1. **Agenda una llamada de descubrimiento (30–45 minutos).**
-2. Definimos juntos el **alcance del PoC** (módulo, LOC, objetivos).
-3. Te enviamos una **propuesta de PoC** con precio cerrado y plazos.
+1. **Agenda una llamada de descubrimiento (30–45 minutos).**  
+2. Definimos juntos el **alcance del PoC** (módulo, LOC, objetivos).  
+3. Te enviamos una **propuesta de PoC** con precio cerrado y plazos.  
 4. Si el PoC cumple los objetivos, pasamos a una **modernización faseada y completa**.
 
-> **¿Listo para ver tu legacy corriendo en moderno con IA, tests y buena arquitectura?**  
+> **¿Listo para ver tu legacy (y tu Java antiguo) corriendo en moderno con IA, tests y buena arquitectura?**  
 > Escribinos y empezamos el PoC de ModernAsh.
