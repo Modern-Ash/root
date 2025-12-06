@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="assets/logo.png" alt="ModernAsh logo – símbolo minimalista de un ave/phoenix emergiendo de cenizas con degradado naranja/rojo y la palabra ModernAsh en tipografía sans moderna" width="220">
-</p>
+    <p align="center">
+      <img src="assets/logo.png" alt="ModernAsh logo – símbolo minimalista de un ave/phoenix emergiendo de cenizas con degradado naranja/rojo y la palabra ModernAsh en tipografía sans moderna" width="220">
+    </p>
 
 
 # ModernAsh Legacy Modernization PoC – AI-Assisted Low-Cost Introductory Engagement on AWS

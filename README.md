@@ -19,8 +19,6 @@ Aquí vas a encontrar:
 
 ## Estructura general del repositorio
 
-> Ajustá rutas/carpetas según cómo organices el proyecto.  
-> En este README se asume que todos los `.md` están en la raíz del repo.
 
 - `modernash-aws-marketplace-product.md`  
 - `modernash-landing-es.md`  
