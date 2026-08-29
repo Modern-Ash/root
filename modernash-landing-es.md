@@ -1,127 +1,88 @@
-
 <p align="center">
-  <img src="assets/logo.png" alt="ModernAsh logo – símbolo minimalista de un ave/phoenix emergiendo de cenizas con degradado naranja/rojo y la palabra ModernAsh en tipografía sans moderna" width="220">
+  <img src="assets/logo.png" alt="ModernAsh" width="220">
 </p>
 
-# ModernAsh – Modernización inteligente de aplicaciones legacy en AWS
+# ModernAsh — Modernizamos software. Gobernamos cómo se construye.
 
-Modernizá tus aplicaciones legacy (COBOL, mainframe y más) a **Java, Python o Node.js sobre AWS** con un **PoC de bajo costo**, asistido por IA, que incluye código moderno, tests automatizados y documentación lista para tu equipo.  
-También te ayudamos a **actualizar aplicaciones Java existentes desde versiones antiguas a versiones modernas LTS**, con arquitectura actualizada y lista para AWS.
+Ayudamos a modernizar sistemas críticos y a incorporar humanos y agentes de IA en procesos de delivery con roles, permisos, evidencia y aprobaciones explícitas.
 
----
+**CTA principal:** [Explorar Agora](https://modern-ash.com/agora/)
 
-## El problema
-
-- Aplicaciones legacy críticas, difíciles de mantener  
-- Costos crecientes de infraestructura y perfiles especializados  
-- Riesgo operativo y tecnológico por obsolescencia  
-- Aplicaciones Java atadas a versiones antiguas, sin aprovechar las versiones modernas del lenguaje y del runtime  
-- Falta de visibilidad clara sobre esfuerzo, costo y riesgo de modernizar
+**CTA secundario:** [Evaluar un piloto](https://modern-ash.com/contacto/)
 
 ---
 
-## La solución ModernAsh
+## Una compañía, dos frentes
 
-**ModernAsh** es una empresa de consultoría y servicios que se especializa en:
+La modernización no termina en el código. También hay que modernizar la forma en que el trabajo se especifica, delega, ejecuta y acepta.
 
-- Migrar y modernizar aplicaciones legacy hacia **arquitecturas modernas** en **Java, Python o Node.js**  
-- Desplegar esas soluciones sobre **Amazon Web Services (AWS)**  
-- Usar **IA + experiencia real en migraciones** para acelerar el proceso sin perder control ni calidad  
-- **Actualizar aplicaciones Java ya existentes**, pasando de versiones viejas (por ejemplo Java 6/7/8) a versiones modernas LTS, con un rediseño arquitectónico alineado con buenas prácticas actuales
+### Servicio 01 — Modernización de sistemas críticos
 
-Nuestro servicio estrella es un **PoC de bajo costo** que te permite probar la modernización en un módulo real, con **mínimo riesgo y máxima visibilidad**.
+Migración de COBOL, mainframe y Java legacy hacia arquitecturas modernas, testeadas y documentadas sobre AWS.
 
----
+El engagement comienza con un alcance representativo y criterios de éxito explícitos. El resultado incluye código y arquitectura, tests, documentación, evaluación de riesgos y un roadmap para la modernización completa.
 
-## PoC de bajo costo (AI-Assisted)
+Cuando corresponde, usamos [Renovatio](https://github.com/Modern-Ash/renovatio), análisis asistido por IA y herramientas de refactoring como aceleradores. Los cambios críticos permanecen sujetos a revisión de ingeniería y evidencia verificable.
 
-### ¿Qué hacemos en el PoC?
+**CTA:** [Ver servicios de modernización](https://modern-ash.com/servicios/)
 
-- Tomamos un **módulo representativo** de tu aplicación legacy (hasta *X.000* líneas de código)  
-- Lo analizamos con herramientas de **IA + análisis estático tradicional**  
-- Lo migramos a **Java, Python o Node.js**, aplicando **buenas prácticas de diseño y arquitectura moderna**  
-- En entornos Java, podemos **actualizar de versiones antiguas a versiones modernas LTS** y mejorar la arquitectura existente  
-- Lo desplegamos sobre **AWS** (contenedores, serverless o la opción que mejor encaje)  
-- Construimos una **batería de tests de unidad e integración**  
-- Documentamos todo en tu **repositorio de código destino**
+### Producto 01 — Gobernanza del delivery con Agora
 
-### ¿Qué obtenés?
+[Agora](https://modern-ash.com/agora/) es un protocolo open source, Markdown-first y Git-native para que humanos, agentes, servicios y swarms trabajen con autoridad explícita y registros durables.
 
-- Código moderno, limpio y modular  
-- Arquitectura y diseño **actuales** (layered, hexagonal, microservicios, etc. según el caso)  
-- **Tests automatizados** (unitarios e integración) listos para tu pipeline CI/CD  
-- Documentación completa en el repo:
-  - Diagramas UML  
-  - Gráficos de arquitectura (C4, context, deployment, etc.)  
-  - `README.md` y HOWTOs para ejecutar, testear y desplegar  
-- Un **roadmap de modernización** con esfuerzos estimados y riesgos  
-- En el caso de Java, una **ruta clara de actualización de versión + arquitectura**, evitando reescrituras innecesarias
+Agora materializa las reglas que un equipo elige:
+
+- quién o qué puede actuar;
+- qué rol ocupa y qué decisiones puede tomar;
+- qué evidencia debe producir;
+- qué gates bloquean una transición;
+- quién conserva la autoridad de aceptar el resultado.
+
+Agora no reemplaza Jira, GitHub, CI/CD ni el runtime del agente. Define y registra el contrato que conecta esos sistemas.
+
+**Estado:** Alpha `0.x`, listo para evaluación y pilotos controlados.
+
+**CTA:** [Conocer Agora](https://modern-ash.com/agora/)
 
 ---
 
-## Cómo trabajamos
+## Ecosistema Agora
 
-1. **Descubrimiento & alcance**  
-   - Reuniones remotas para entender tu entorno legacy, restricciones y prioridades  
-   - Selección del módulo a modernizar y definición de criterios de éxito
+### Agora Core — Gobierna
 
-2. **Análisis asistido por IA**  
-   - Inventario de código, complejidad y dependencias  
-   - Identificación de “quick wins” y puntos de riesgo
+Core, servicios de aplicación, CLI, Method Packs, Tool Packs, roles, lifecycle, gates, evidencia y persistencia en `.agora/` y Git.
 
-3. **Modernización + arquitectura moderna**  
-   - Refactor y migración a **Java, Python o Node.js** con patrones modernos de diseño  
-   - Para Java existente: actualización de versión + mejora arquitectónica  
-   - Arquitectura enfocada en cloud-native sobre AWS
+Repositorio: <https://github.com/Modern-Ash/agora>
 
-4. **Testing & documentación**  
-   - Creación de **tests unitarios e integración**  
-   - Documentación completa (UML, diagramas, README, HOWTOs) en tu repositorio
+### Agora Studio — Hace visible
 
-5. **Demo + roadmap**  
-   - Demo técnica y funcional  
-   - Entrega del roadmap para una modernización completa, faseada y realista
+Control plane visual local para inspeccionar proyectos, trabajo, actividad, trazabilidad, evidencia y aprobaciones sobre las mismas reglas de Core.
+
+Repositorio: <https://github.com/Modern-Ash/agora-studio>
+
+### Truco Agora — Demuestra
+
+Aplicación jugable que muestra el método con participantes humanos y agentes LLM, proveedores locales, observabilidad, tests y registros de desarrollo gobernado.
+
+Repositorio: <https://github.com/Modern-Ash/truco-agora>
 
 ---
 
-## ¿Por qué ModernAsh?
+## DevEngage.AI convierte Agora en una práctica operativa
 
-- **Especialistas en legacy → moderno**  
-  Años de experiencia en proyectos de migración, no solo “rewrites” teóricos.
+DevEngage.AI no es otro producto. Es el servicio profesional de ModernAsh para diseñar, implementar y acompañar un piloto de delivery gobernado dentro de un repositorio real.
 
-- **IA + ingenieros senior**  
-  Usamos IA para acelerar análisis, refactor y generación de tests, siempre con **revisión humana**.
+1. **Assess:** relevamos uso de IA, workflow, riesgos, herramientas y restricciones.
+2. **Design:** definimos actores, roles, permisos, Method Pack, gates y evidencia.
+3. **Pilot:** ejecutamos trabajo real con humanos y agentes dentro del contrato acordado.
+4. **Adopt:** capacitamos al equipo, evaluamos resultados y dejamos un roadmap de adopción.
 
-- **Código listo para tu equipo**  
-  Con buenas prácticas, tests y documentación, tu equipo puede continuar el trabajo sin fricción.
-
-- **Modelo de enganche de bajo riesgo**  
-  El PoC está pensado como **engagement de entrada**: precio casi a costo, foco en demostrar valor y viabilidad.
-
-- **Integración con el ecosistema AWS**  
-  Diseñamos pensando en los servicios nativos de AWS y en tu estrategia de cloud a largo plazo.
-
-- **Modernización de Java existente**  
-  No solo migramos desde COBOL: también **evolucionamos tus aplicaciones Java actuales** hacia nuevas versiones y arquitecturas modernas en AWS.
+**CTA:** [Ver DevEngage.AI](https://modern-ash.com/devengage/)
 
 ---
 
-## Publicado en AWS Marketplace
+## Piloto controlado
 
-ModernAsh publica sus servicios como **Professional Services** en **AWS Marketplace**, lo que te permite:
+El primer paso no es una transformación masiva. Es un piloto acotado sobre un repositorio real, con un objetivo verificable, autoridad explícita, evidencia acordada y una decisión de adopción al cierre.
 
-- Contratar el PoC de modernización con un proceso de compra estándar AWS  
-- Centralizar facturación e integración con tus cuentas AWS  
-- Escalar luego a un contrato de modernización completa mediante **Private Offer**
-
----
-
-## Próximos pasos
-
-1. **Agenda una llamada de descubrimiento (30–45 minutos).**  
-2. Definimos juntos el **alcance del PoC** (módulo, LOC, objetivos).  
-3. Te enviamos una **propuesta de PoC** con precio cerrado y plazos.  
-4. Si el PoC cumple los objetivos, pasamos a una **modernización faseada y completa**.
-
-> **¿Listo para ver tu legacy (y tu Java antiguo) corriendo en moderno con IA, tests y buena arquitectura?**  
-> Escribinos y empezamos el PoC de ModernAsh.
+**CTA:** [Conversemos sobre el piloto](https://modern-ash.com/contacto/)

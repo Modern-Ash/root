@@ -5,6 +5,8 @@
 
 # ModernAsh Legacy Modernization PoC – AI-Assisted Low-Cost Introductory Engagement on AWS
 
+> Marketplace status: commercial draft. Confirm listing availability, pricing, contract terms, regions, and AWS Marketplace requirements before external use.
+
 **Short description**
 
 Validate the modernization of your COBOL and legacy applications to **Java, Python, or Node.js on AWS** with an **AI-assisted, low-cost, fixed-scope Proof of Concept (PoC)**. ModernAsh delivers a working prototype, a **full suite of unit and integration tests**, modern architecture and design, and a roadmap for your full migration.
@@ -16,6 +18,10 @@ Validate the modernization of your COBOL and legacy applications to **Java, Pyth
 ModernAsh is a consulting and professional services company specialized in modernizing legacy applications (such as COBOL and mainframe workloads, as well as **outdated Java applications**) into cloud-native architectures on AWS.
 
 We combine **deep legacy modernization experience** with **AI-assisted analysis and transformation** to accelerate migrations while maintaining strict quality and control. Our approach is always **human-in-the-loop**: AI speeds up analysis, refactoring, test generation, and documentation, and our senior engineers validate every critical change.
+
+Where appropriate, the engagement may use [Renovatio](https://github.com/Modern-Ash/renovatio), ModernAsh's open-source MCP server for Java and COBOL analysis, migration, and refactoring. Renovatio is an accelerator, not a substitute for architecture decisions, functional validation, testing, or human approval.
+
+For pilots that involve coding agents, the delivery workflow may also be governed with [Agora](https://github.com/Modern-Ash/agora), ModernAsh's open-source, Markdown-first and Git-native framework for explicit roles, permissions, gates, evidence, and durable approvals. Agora is Alpha `0.x`; its use must be explicitly scoped and reviewed with the customer.
 
 In the target codebase, we apply **modern software engineering best practices**, including:
 
@@ -42,6 +48,7 @@ The PoC is intentionally scoped and priced as an **introductory engagement** tha
 
 - **Low-risk entry point**: fixed-scope, low-cost PoC rather than a big upfront commitment.  
 - **AI-assisted acceleration**: faster analysis and migration without losing control or quality.  
+- **Optional open-source accelerators**: Renovatio for modernization tooling and Agora for governed delivery, when appropriate to the agreed scope.
 - **Production-style quality**: modern architecture, clean code, and automated tests included.  
 - **Documentation-first**: code, architecture, and workflows are clearly documented in your repository.  
 - **Clear roadmap**: from PoC to full modernization, with predictable effort and cost.  
@@ -174,6 +181,7 @@ Our AI usage principles:
   - Refactoring suggestions and initial transformations  
   - Test case generation and documentation drafts  
 - All changes to **business-critical logic and architecture** are reviewed and approved by experienced ModernAsh engineers.  
+- Tool or agent output does not count as acceptance by itself. Required tests, evidence, and human approval are defined in the engagement criteria.
 - We can adapt to your **data protection and compliance requirements**, including:
   - Isolated environments (e.g., VPC-only connectivity)  
   - No training of external AI models on your proprietary code  
@@ -256,3 +264,11 @@ ModernAsh is a specialized consulting and services company focused on:
 - Cloud-native design and implementation on AWS  
 
 We bring **hands-on experience with complex legacy environments** (including mainframe and COBOL) and **outdated Java estates**, and deliver modern, well-tested, and well-documented systems in **Java, Python, and Node.js** that your teams can own and evolve with confidence.
+
+## Related resources
+
+- ModernAsh: <https://modern-ash.com/>
+- Legacy modernization services: <https://modern-ash.com/servicios/>
+- Renovatio: <https://github.com/Modern-Ash/renovatio>
+- Agora: <https://modern-ash.com/agora/>
+- Contact: <https://modern-ash.com/contacto/>

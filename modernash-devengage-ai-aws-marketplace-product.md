@@ -1,292 +1,134 @@
 <p align="center">
-  <img src="assets/logo.png" alt="ModernAsh logo – símbolo minimalista de un ave/phoenix emergiendo de cenizas con degradado naranja/rojo y la palabra ModernAsh en tipografía sans moderna" width="220">
+  <img src="assets/logo.png" alt="ModernAsh" width="220">
 </p>
 
+# Draft — ModernAsh DevEngage.AI: Governed AI Delivery Pilot
 
-# ModernAsh DevEngage.AI – GenAI-Driven Engineering Enablement on AWS
+> Marketplace status: commercial draft. Confirm listing availability, pricing, contract terms, regions, and AWS Marketplace requirements before external use.
 
-**Short description**
+## Short description
 
-Enable your engineering teams to adopt **generative AI (GitHub Copilot, LLMs, agentic workflows)** across the entire software development lifecycle. ModernAsh DevEngage.AI designs and implements an **AI-augmented, language-agnostic operating model**, compatible with **Scrum, Kanban and variants**, to improve product quality, security, test coverage, documentation, and throughput by treating AI as an **additional team member**.
-
----
+Design and run a controlled software-delivery pilot in which humans and AI agents operate with explicit roles, permissions, lifecycle gates, evidence requirements, handoffs, and approval authority. DevEngage.AI is a ModernAsh professional service powered by the open-source Agora framework.
 
 ## Overview
 
-ModernAsh DevEngage.AI is a consulting and professional services engagement that helps development teams integrate **generative AI as an active contributor** in their day-to-day work, not just as another tool.
+Development teams are already using coding assistants and agents. The remaining challenge is not access to AI; it is establishing an operating model that can answer:
 
-We focus on:
+- Who or what performed an action?
+- Which role and authority did that actor hold?
+- What evidence was produced and reviewed?
+- Which gate allowed the work to advance?
+- Who had authority to accept the result?
 
-- Making AI **agentic**: AI systems that work from **goals and specs**, interact with your repositories and tools, and produce **concrete artifacts** (code, tests, docs, refactors).  
-- Embedding AI into **real-world delivery workflows**, including **Scrum, Kanban, Scrumban, SAFe, and custom frameworks**.  
-- Being **agnostic to programming language and stack**: Java, Python, Node.js, .NET, front-end, mobile, data/ML, and more.  
-- Improving:
-  - Product **quality**  
-  - **Security** posture of the code  
-  - **Test coverage** and reliability  
-  - **Documentation** level and freshness  
-  - Overall **throughput**, by offloading repetitive, non-creative tasks to AI
+ModernAsh DevEngage.AI helps an organization design, implement, and evaluate that model in a real repository. The engagement uses [Agora](https://github.com/Modern-Ash/agora), an open-source, Markdown-first, Git-native framework for governing software delivery across humans, AI agents, services, and swarms.
 
-We introduce and reinforce **Spec Driven Development (SDD)**: a way of working where specifications (specs) are the central artifact, and both humans and AI collaborate to generate code, tests, and documentation aligned to those specs.
+Agora is the product foundation. DevEngage.AI is the professional service that adapts it to the customer's workflow, tools, security posture, and approval model.
 
-This engagement is **team-topology-agnostic** and **workflow-agnostic**: it can be embedded into cross-functional squads, component teams, platform teams, or any structure you already have, without forcing you to change your delivery framework.
+## Key outcomes
 
----
+- A selected repository adopted for a controlled Agora pilot.
+- Explicit human, AI, service, or swarm actors and role assignments.
+- A lifecycle aligned with Spec-Driven Development, Scrum, Kanban, or a customer-specific method.
+- Defined permissions, gates, evidence contracts, handoffs, and approval authority.
+- Durable, inspectable work records in `.agora/` and Git.
+- Hands-on enablement for engineering and relevant reviewers.
+- A pilot evaluation and an evidence-based adoption roadmap.
 
-## Key Benefits
+## What Agora does — and does not do
 
-- **Higher product quality**  
-  Better structured code, consistent patterns, and higher test coverage.
+Agora materializes the delivery contract selected by the team. It is provider-neutral and process-neutral. It does not embed an LLM client or replace the customer's agent runtime, source host, issue tracker, CI/CD platform, or security tooling.
 
-- **Improved security**  
-  Systematic support for secure coding practices, AI assistance to spot insecure patterns, and alignment with your existing security tooling.
+Agora is currently Alpha `0.x` and suitable for evaluation and controlled pilots. CLI and Markdown contracts may evolve before `1.0`. Each organization must review permissions, Method Packs, adapters, execution isolation, data handling, and recovery policy.
 
-- **More testing with less friction**  
-  Generative AI assists in creating and maintaining **unit, integration, and end-to-end tests** from specs and existing code.
+## Typical use cases
 
-- **Better documentation with minimal overhead**  
-  AI-generated and AI-assisted **README files, HOWTOs, inline comments, architectural notes, and changelogs** that stay closer to reality.
+- Engineering organizations introducing coding agents into production repositories.
+- Teams that already use GitHub Copilot, coding assistants, or custom agents but lack a shared governance model.
+- Regulated or risk-sensitive organizations that require explicit authority, evidence, and approval boundaries.
+- Engineering leaders who want to test an AI delivery operating model on real work before a broader rollout.
+- Teams working with Scrum, Kanban, Spec-Driven Development, or a custom lifecycle.
 
-- **Higher throughput and more focus on creativity**  
-  Repetitive, low-value tasks (boilerplate, scaffolding, documentation, many tests) become the responsibility of AI, freeing humans for architecture, design, and product thinking.
+## Engagement scope and deliverables
 
-- **Compatible with how you already work**  
-  Works with **Scrum, Kanban, Scrumban, SAFe and derivatives**, and can be introduced incrementally per team.
+### Phase 1 — Assess
 
----
+ModernAsh reviews:
 
-## Typical Use Cases
+- current AI usage, tools, and agent environments;
+- repository, issue-tracking, review, and CI/CD workflows;
+- team roles and current approval boundaries;
+- security, privacy, compliance, and source-code constraints;
+- candidate pilot objectives and measurable success criteria.
 
-- Organizations that want to adopt **GitHub Copilot, AI coding assistants, and agentic AI** in a **structured, governed** way.  
-- Engineering leaders aiming to:
-  - Increase **productivity** without sacrificing quality or security.  
-  - Boost **test coverage and documentation** using AI.  
-  - Standardize how AI is used across teams, languages, and workflows.  
-- Teams working in **Scrum or Kanban** that want to embed AI into their sprint/flow instead of using it “on the side”.  
-- Companies that want to **experiment with generative AI in software engineering** but need **guardrails, governance, and measurable impact**.
+**Deliverables:** maturity and risk assessment, prioritized opportunities, pilot recommendation, and success criteria.
 
----
+### Phase 2 — Design
 
-## What You Get (Deliverables)
+ModernAsh facilitates the design of:
 
-By the end of the engagement, you receive:
+- human, AI, service, and swarm actors;
+- roles, capabilities, and authority boundaries;
+- Method Pack and lifecycle;
+- gates, evidence requirements, and acceptance authority;
+- runtime adapters, isolation expectations, and recovery policy.
 
-### 1. GenAI Engineering Assessment & Readiness Report
+**Deliverables:** reviewed operating model, authority matrix, pilot configuration plan, and acceptance criteria.
 
-- Assessment of current:
-  - Tech stack and tooling (IDEs, repos, CI/CD, code review practices).  
-  - Delivery processes (Scrum, Kanban, etc.) and team topology.  
-  - Current or planned use of generative AI tools.  
-- Identification of:
-  - High-impact AI use cases (code, tests, docs, security, refactor, etc.).  
-  - Risks and constraints (compliance, data protection, security).  
-- A **readiness and maturity report** with prioritized opportunities and recommended first steps.
+### Phase 3 — Pilot
 
----
+ModernAsh helps adopt the selected repository and execute a bounded real-world objective. Work sessions, handoffs, artifacts, evidence, gates, and approvals remain inspectable in the governed repository.
 
-### 2. AI-Augmented Operating Model for Engineering
+**Deliverables:** configured `.agora/` workspace, governed pilot work, representative records and evidence, coaching sessions, and implementation findings.
 
-- Definition of an **“AI as a team member”** model:
-  - Which tasks are delegated to AI, and which remain human-only.  
-  - Where and when AI participates in the lifecycle (refinement, coding, review, docs, testing).  
-  - How roles (developers, tech leads, architects, QA, SRE) interact with AI and review its outputs.  
-- Workflow designs tailored to your context:
-  - For **Scrum**: how AI fits into backlog refinement, sprint planning, development, review, and retrospective.  
-  - For **Kanban / flow-based** teams: how AI is integrated into the board and value stream without adding bottlenecks.  
-- Governance and guardrails:
-  - Approval rules for AI-generated artifacts.  
-  - Minimal quality and security criteria.  
-  - Logging and traceability of AI contributions where required.
+### Phase 4 — Adopt
 
-**Deliverable:** an **AI Augmented SDLC Playbook** customized for your teams.
+ModernAsh evaluates the pilot and prepares the team to operate the model.
 
----
+**Deliverables:** team playbook, enablement sessions, pilot report, prioritized improvements, and adoption or expansion roadmap.
 
-### 3. Spec Driven Development (SDD) Framework
+## Metrics
 
-- Definition of **spec templates** (typically in Markdown or your standard format) that include:
-  - Context and objectives.  
-  - Functional and non-functional requirements.  
-  - Edge cases, error scenarios, and security constraints.  
-- Integration of SDD into your existing tools:
-  - Backlog items (e.g., Jira, GitHub Issues, Azure Boards).  
-  - PR templates and CI/CD checks.  
-- Examples of **real specs** linked to:
-  - AI-generated or AI-assisted code.  
-  - AI-generated test suites.  
-  - AI-generated documentation.
+Metrics are selected with the customer and reported as observed pilot results, not guaranteed improvements. Depending on the objective, they may include:
 
-**Deliverable:** a **Spec Driven Development guide and template set** adapted to your teams and workflows.
+- cycle time and blocked time;
+- rework and defect signals;
+- evidence completeness and review quality;
+- review and approval time;
+- contribution traceability;
+- effective team adoption.
 
----
+## Customer responsibilities
 
-### 4. Implementation of AI-Augmented Workflows
+The customer provides:
 
-- Configuration of:
-  - Generative AI assistants (GitHub Copilot or alternatives, subject to your tooling and policies).  
-  - Agentic workflows for:
-    - Code scaffolding and repetitive coding tasks.  
-    - Generation and maintenance of **unit and integration tests**.  
-    - Documentation (README, HOWTOs, inline comments, changelogs).  
-    - Suggesting refactors and highlighting code smells.  
-- Optional integration with **AWS-native tooling** (e.g., CodeCommit, CodeBuild, CodePipeline, CodeCatalyst) and existing security tools.
+- an engineering sponsor and pilot team;
+- access to the selected repository and relevant workflow documentation;
+- customer-approved agent tools, models, accounts, and credentials;
+- security, privacy, legal, and compliance requirements;
+- role holders authorized to review and accept pilot outcomes;
+- timely feedback and participation in working sessions.
 
-**Deliverable:** working examples in your own repositories, with AI-assisted pull requests and automations that your team can inspect and own.
+ModernAsh does not select or approve AI models on behalf of the customer's risk functions, and Agora does not store provider credentials in its core.
 
----
+## Typical timeline
 
-### 5. Training, Coaching & Adoption Toolkit
+The typical pilot lasts **4–8 weeks** for one team and one repository. Duration and scope depend on workflow complexity, security review, integration requirements, and pilot objective.
 
-- Practical workshops for engineers, tech leads, and managers on:
-  - Effective use of generative AI for coding, testing, and documentation.  
-  - How to write good specs and prompts.  
-  - How to review and accept AI-generated artifacts.  
-- Hands-on coaching with your squads:
-  - Reviewing PRs and tasks where AI was involved.  
-  - Adjusting workflows based on feedback and team preferences.  
-- An adoption toolkit:
-  - Best practices, dos and don’ts.  
-  - FAQ and reference materials for new joiners.
+## Pricing and contracting
 
----
+DevEngage.AI is structured as a fixed-scope professional services engagement, with optional follow-on work for additional teams, custom Method Packs, deeper integrations, or ongoing enablement.
 
-### 6. Metrics & Continuous Improvement Plan
+Final scope, price, milestones, assumptions, and acceptance criteria must be documented in the applicable Statement of Work and, when available, an AWS Marketplace Private Offer.
 
-- Definition of **metrics** to track impact, such as:
-  - Lead time and cycle time for features.  
-  - Test coverage and defect rates.  
-  - Documentation coverage (e.g., % of modules with README/HOWTO).  
-  - Usage patterns of AI tools.  
-- Recommendations for:
-  - Continuous tuning of AI workflows.  
-  - Scaling from 1–2 teams to many teams.  
-  - Periodic reviews of governance and guardrails.
+## Data protection and confidentiality
 
-**Deliverable:** a **DevEngage.AI Scorecard** and a roadmap to scale.
+ModernAsh works under applicable confidentiality and professional services agreements. The pilot can be adapted to customer requirements for source-code access, execution isolation, model usage, data handling, logging, and evidence retention.
 
----
+## Related resources
 
-## Engagement Model & Typical Timeline
-
-**Typical duration:** 4–8 weeks for 1–2 teams (can be adapted).
-
-### Phase 1 – Discovery & Assessment
-
-- Stakeholder interviews (engineering, security, product).  
-- Assessment of current tooling, processes, and constraints.  
-- Readiness and opportunity analysis.
-
-### Phase 2 – Operating Model & SDD Design
-
-- Design of the **AI-augmented SDLC model** for your teams.  
-- Creation of SDD templates and workflow diagrams.  
-- Alignment with your Scrum/Kanban practices and team topology.
-
-### Phase 3 – Implementation & Hands-On Integration
-
-- Setup of AI tools and workflows in your environment.  
-- Creation of real examples (code, tests, docs) using your actual backlog items.  
-- Integration with CI/CD and existing review practices.
-
-### Phase 4 – Training, Coaching & Metrics
-
-- Workshops and coaching sessions with the teams.  
-- Setup of metrics and dashboards where feasible.  
-- Adjustments based on early feedback and quick wins.
-
----
-
-## How We Use AI (Safety & Governance)
-
-ModernAsh treats generative AI as a powerful accelerator that must be used responsibly.
-
-- AI is used to **assist**, not replace, human decision-making.  
-- We align with your policies on:
-  - Data residency and privacy.  
-  - Source code confidentiality and IP.  
-  - Use (or non-use) of external AI models with proprietary code.  
-- We encourage:
-  - Clear guidelines on when AI-generated content must be reviewed.  
-  - Traceability where needed (e.g., PR templates indicating AI assistance).  
-  - Periodic review of security and compliance implications.
-
----
-
-## Customer Prerequisites
-
-To ensure a successful engagement, we expect:
-
-- At least one **sponsor in engineering leadership** and one **team willing to adopt AI** in their day-to-day work.  
-- Access to:
-  - Example repositories and pipelines.  
-  - The backlog/issue tracker used by the team.  
-- Agreement on:
-  - Basic AI usage policies (or willingness to define them with us).  
-  - Clear success criteria (e.g., test coverage, documentation, throughput, defects).
-
-This service is **agnostic to programming language and stack** and works with **Scrum, Kanban, and derivatives**, so no change in process framework is required.
-
----
-
-## Pricing
-
-This is a **fixed-scope consulting engagement** with optional extensions.
-
-- Base engagement for **1–2 teams** over **4–8 weeks**, including assessment, design, implementation, training, and early metrics.  
-- Extensions for:
-  - Additional teams or business units.  
-  - Deeper automation or bespoke agent development.  
-  - Ongoing coaching and periodic health checks.
-
-Final pricing will be agreed with you and documented in an **AWS Marketplace Private Offer**, aligned with your procurement and budgeting processes.
-
----
-
-## From Initial Engagement to Organization-Wide Rollout
-
-The initial engagement is designed to:
-
-- Prove value with **real teams and real work**.  
-- Establish a **reusable model, templates, and tooling**.
-
-Afterwards, ModernAsh can support:
-
-- Rolling out DevEngage.AI to additional teams and units.  
-- Deepening automation and agent capabilities.  
-- Periodic reviews of metrics, governance, and ROI.
-
----
-
-## Support
-
-During the engagement, ModernAsh provides:
-
-- Email and chat support during business hours (US time zones).  
-- Regular working sessions and status updates.  
-- Access to all documentation, templates, and code samples created as part of the engagement.
-
-Additional support and follow-on services can be defined as separate professional services engagements via AWS Marketplace.
-
----
-
-## Data Protection & Confidentiality
-
-ModernAsh works under **Mutual NDAs and service agreements** that protect:
-
-- Confidentiality of your source code and documentation.  
-- Privacy and security of any data used during the engagement.  
-- Your IP and proprietary workflows.
-
-We can align with your legal and compliance requirements and the AWS Marketplace **Standard Contract for Professional Services**, with modifications via **Private Offer** where needed.
-
----
-
-## About ModernAsh
-
-ModernAsh is a consulting and professional services company focused on:
-
-- **Legacy-to-modern modernization** (applications and architectures on AWS).  
-- **AI-assisted engineering**, including code, tests, and documentation.  
-- **AI-augmented ways of working** for engineering teams.
-
-With **ModernAsh DevEngage.AI**, we help organizations bring generative AI into real development workflows—improving quality, security, testing, documentation, and productivity across teams, technologies, and delivery frameworks.
+- ModernAsh: <https://modern-ash.com/>
+- DevEngage.AI: <https://modern-ash.com/devengage/>
+- Agora product: <https://modern-ash.com/agora/>
+- Agora Core: <https://github.com/Modern-Ash/agora>
+- Agora Studio: <https://github.com/Modern-Ash/agora-studio>
+- Truco Agora: <https://github.com/Modern-Ash/truco-agora>

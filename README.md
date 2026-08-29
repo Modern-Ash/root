@@ -1,169 +1,97 @@
 <p align="center">
-  <img src="assets/logo.png" alt="ModernAsh logo – símbolo minimalista de un ave/phoenix emergiendo de cenizas con degradado naranja/rojo y la palabra ModernAsh en tipografía sans moderna" width="220">
+  <img src="assets/logo.png" alt="ModernAsh" width="220">
 </p>
 
-# ModernAsh – Documentación de servicios y material comercial
+# ModernAsh — material comercial y arquitectura de oferta
 
-Este repositorio centraliza la documentación de **ModernAsh**, una startup de consultoría y servicios enfocada en:
+Este repositorio centraliza la narrativa comercial de [ModernAsh](https://modern-ash.com/), sus servicios profesionales y su ecosistema de productos open source.
 
-1. **Modernización de aplicaciones legacy hacia arquitecturas modernas en AWS**  
-2. **Modernización del proceso de desarrollo con IA generativa**, integrando la IA como un integrante más del equipo (ModernAsh DevEngage.AI)
+## Posicionamiento vigente
 
-Aquí vas a encontrar:
+> **Modernizamos software. Gobernamos cómo se construye.**
 
-- Textos completos para publicar en **AWS Marketplace**  
-- Contenidos para **landing comercial** (web)  
-- Material para **pitch deck** (presentaciones a clientes, partners e inversores)
+ModernAsh trabaja sobre dos frentes complementarios:
 
----
+1. **Modernización de sistemas críticos**: evaluación y modernización de COBOL, mainframe y Java legacy hacia arquitecturas modernas, testeadas y documentadas sobre AWS.
+2. **Gobernanza del delivery con IA**: incorporación de humanos, agentes, servicios y swarms a procesos de desarrollo con roles, permisos, evidencia, gates y aprobaciones explícitas.
 
-## Estructura general del repositorio
+## Arquitectura de producto y servicios
 
+| Oferta | Tipo | Rol |
+| --- | --- | --- |
+| [Agora](https://modern-ash.com/agora/) | Producto open source, Alpha `0.x` | Protocolo Markdown-first y Git-native para gobernar la ejecución del delivery |
+| [DevEngage.AI](https://modern-ash.com/devengage/) | Servicio profesional | Assessment, diseño, piloto y adopción del delivery gobernado con Agora |
+| Legacy Modernization | Servicio profesional | Modernización controlada de sistemas críticos y aplicaciones Java existentes |
+| [Renovatio](https://github.com/Modern-Ash/renovatio) | Acelerador open source | Herramientas MCP para análisis, migración y refactoring de Java y COBOL |
 
-- `modernash-aws-marketplace-product.md`  
-- `modernash-landing-es.md`  
-- `modernash-pitch-deck.md`  
-- `modernash-devengage-ai-aws-marketplace-product.md`  
-- `modernash-devengage-landing-es.md`  
-- `modernash-devengage-pitch-deck.md`  
-- `README.md` (este archivo)
+La distinción es deliberada:
 
----
+- **Agora es el producto.** Materializa el contrato operativo elegido por el equipo.
+- **DevEngage.AI es el servicio.** Ayuda a una organización a diseñar, pilotear y adoptar ese modelo en repositorios reales.
+- **Legacy Modernization es otro servicio.** Puede usar Renovatio, IA y Agora como aceleradores o controles, pero su resultado comercial es la modernización del sistema.
 
-## 1. Servicio: Modernización de aplicaciones legacy en AWS
+## Ecosistema de repositorios
 
-### 1.1 Descripción general
+| Repositorio | Responsabilidad | Relación comercial |
+| --- | --- | --- |
+| [`Modern-Ash/site`](https://github.com/Modern-Ash/site) | Sitio público bilingüe | Fuente del mensaje publicado en modern-ash.com |
+| [`Modern-Ash/agora`](https://github.com/Modern-Ash/agora) | Core, servicios de aplicación, CLI, Method Packs, Tool Packs, persistencia, gates y evidencia | Producto principal para delivery gobernado |
+| [`Modern-Ash/agora-studio`](https://github.com/Modern-Ash/agora-studio) | Control plane visual local sobre Agora Core | Superficie de inspección, revisión y aprobación |
+| [`Modern-Ash/truco-agora`](https://github.com/Modern-Ash/truco-agora) | Aplicación demostrativa con participantes humanos y agentes LLM | Demostración ejecutable del método |
+| [`Modern-Ash/renovatio`](https://github.com/Modern-Ash/renovatio) | MCP server para migración y refactoring | Acelerador técnico de Legacy Modernization |
+| [`Modern-Ash/comercial`](https://github.com/Modern-Ash/comercial) | Narrativa, one-pagers, landings y decks | Fuente de materiales comerciales |
 
-ModernAsh ofrece un servicio de **modernización de aplicaciones legacy** (por ejemplo COBOL, mainframe y Java antiguo) hacia **Java, Python o Node.js** desplegado sobre **AWS**, usando:
+La URL histórica `https://github.com/Modern-Ash/root` redirige a este repositorio (`Modern-Ash/comercial`); no representa un codebase separado del sitio.
 
-- **IA asistida** para análisis y migración de código  
-- Buenas prácticas de **arquitectura moderna** (layered, hexagonal, microservicios, event-driven, etc.)  
-- Una batería completa de **tests unitarios e integración**  
-- **Documentación y diagramas** (UML, C4, README, HOWTOs) en el repositorio destino  
-- Capacidad de **actualizar Java desde versiones viejas a versiones modernas LTS**, modernizando también la arquitectura
+### Cómo se relacionan Agora Core, Studio y Truco Agora
 
-El servicio se ofrece como un **engagement de bajo costo y alcance acotado (PoC)** para reducir riesgo y abrir la puerta a proyectos de modernización completos.
+```mermaid
+flowchart LR
+    C[Agora Core\nGobernanza + estado durable] --> S[Agora Studio\nControl plane local]
+    C --> T[Truco Agora\nDemostración ejecutable]
+    C -. registra .-> G[.agora/ + Git]
+    D[DevEngage.AI\nServicio profesional] -. diseña y acompaña la adopción .-> C
+```
 
-### 1.2 Archivos relacionados
+Los tres repositorios son complementarios: Core define y valida el contrato; Studio lo hace visible; Truco Agora lo demuestra en una aplicación concreta.
 
-- 📄 **AWS Marketplace (EN)**  
-  `modernash-aws-marketplace-product.md`  
-  Contiene la descripción completa del producto “ModernAsh Legacy Modernization PoC – AI-Assisted Low-Cost Introductory Engagement on AWS” para publicar como **Professional Services** en AWS Marketplace.
+## Inventario de materiales
 
-- 🌐 **Landing comercial (ES)**  
-  `modernash-landing-es.md`  
-  Texto orientado a la web de ModernAsh en español, explicando el servicio de modernización, beneficios, cómo trabajamos y próximos pasos.
+### Narrativa institucional
 
-- 📊 **Pitch deck (ES)**  
-  `modernash-pitch-deck.md`  
-  Estructura de presentación en formato “slide por slide” para usar en presentaciones comerciales, partners, AWS, etc.
+- [`modernash-landing-es.md`](modernash-landing-es.md): copy de referencia para la Home.
+- [`modernash-pitch-deck.md`](modernash-pitch-deck.md): deck corporativo con la arquitectura completa de oferta.
+- [`modernash-agora-onepager-es.md`](modernash-agora-onepager-es.md): one-pager comercial y técnico del producto Agora.
 
----
+### DevEngage.AI
 
-## 2. Servicio: ModernAsh DevEngage.AI – GenAI para equipos de desarrollo
+- [`modernash-devengage-landing-es.md`](modernash-devengage-landing-es.md): landing del servicio de adopción.
+- [`modernash-devengage-ai-onepager-es.md`](modernash-devengage-ai-onepager-es.md): one-pager y paquetes de actividades.
+- [`modernash-devengage-pitch-deck.md`](modernash-devengage-pitch-deck.md): pitch deck del servicio.
+- [`modernash-devengage-ai-aws-marketplace-product.md`](modernash-devengage-ai-aws-marketplace-product.md): borrador en inglés para AWS Marketplace Professional Services.
 
-### 2.1 Descripción general
+### Legacy Modernization
 
-**ModernAsh DevEngage.AI** es un servicio de consultoría para **integrar IA generativa** (GitHub Copilot, LLMs, agentes) en el **ciclo completo de desarrollo de software**:
+- [`modernash-aws-marketplace-product.md`](modernash-aws-marketplace-product.md): borrador en inglés para AWS Marketplace Professional Services.
+- [`modernash-pitch-deck.md`](modernash-pitch-deck.md): deck corporativo y de modernización.
 
-- IA como un **integrante más del equipo**, encargada de:
-  - Tareas repetitivas y no creativas (boilerplate, scaffolding)
-  - Generación y mantenimiento de tests (unitarios, integración)
-  - Documentación (README, HOWTOs, comentarios, changelogs)
-  - Refactors y sugerencias de mejoras
-- **Agnóstico al lenguaje** y **agnóstico a la topología del equipo**:
-  - Java, Python, Node.js, .NET, front-end, data/ML, etc.
-  - Squads de producto, equipos de plataforma, capítulos, etc.
-- **Compatible con Scrum, Kanban y derivados**:
-  - No requiere cambiar de framework ni de proceso
-- Implementación de **Spec Driven Development (SDD)**:
-  - La *spec* es el centro: IA y humanos generan código/tests/docs alineados a esa especificación
-- Objetivo final:
-  - **Más calidad**, **más seguridad**, **más pruebas**, **más documentación** y **más producción**
-  - Sin quemar al equipo, liberando tiempo para diseño, arquitectura y decisiones de negocio
+### Investigación histórica
 
-### 2.2 Archivos relacionados
+- `docs/Market Analysis and Launch Strategy for Modern Ash.pdf`: análisis previo de mercado. Sirve como referencia histórica, pero no es fuente de verdad para el posicionamiento o estado actual de los productos.
 
-- 📄 **AWS Marketplace (EN)**  
-  `modernash-devengage-ai-aws-marketplace-product.md`  
-  Descripción completa del producto “ModernAsh DevEngage.AI – GenAI-Driven Engineering Enablement on AWS” para publicarlo como **Professional Services** en AWS Marketplace.
+## Reglas de mensaje
 
-- 🌐 **Landing comercial (ES)**  
-  `modernash-devengage-landing-es.md`  
-  Contenido en español orientado a la web, explicando qué es DevEngage.AI, problemas que resuelve, beneficios y cómo trabajamos.
+- No describir DevEngage.AI como software, plataforma o producto independiente.
+- No presentar Agora como un agente, un runtime de agentes, un issue tracker o un reemplazo de CI/CD.
+- Decir que Agora es **provider-neutral**, **process-neutral**, **Markdown-first** y **Git-native**.
+- Comunicar claramente que Agora está en **Alpha `0.x`** y es apto para evaluación y pilotos controlados.
+- No prometer autonomía: el valor está en autoridad explícita, evidencia durable y aprobación verificable.
+- Presentar métricas de productividad, calidad o ROI como objetivos a medir, no como resultados garantizados.
+- Tratar los documentos de AWS Marketplace como borradores hasta confirmar publicación, pricing, contrato y disponibilidad.
 
-- 📊 **Pitch deck (ES)**  
-  `modernash-devengage-pitch-deck.md`  
-  Estructura de presentación para explicar DevEngage.AI a clientes, partners e inversores (slide por slide).
+## URLs canónicas
 
----
-
-## 3. Cómo usar estos documentos
-
-### 3.1 Para AWS Marketplace
-
-- Tomar los archivos:
-  - `modernash-aws-marketplace-product.md`
-  - `modernash-devengage-ai-aws-marketplace-product.md`
-- Adaptar:
-  - Campos de **short description**, **pricing**, **contacto** y otros límites de caracteres según los formularios de AWS Marketplace.
-- Copiar/pegar el contenido en el **formulario de creación de producto de Professional Services**.
-- Ajustar detalles legales y comerciales (SoW, T&Cs) según lo que defina el área legal/fiscal.
-
-### 3.2 Para la web (landing)
-
-- Usar:
-  - `modernash-landing-es.md`
-  - `modernash-devengage-landing-es.md`
-- Adaptar el contenido a la estructura del sitio (secciones, componentes, CTAs).
-- Mantener el mensaje consistente:
-  - ModernAsh = modernización de sistemas + modernización de cómo se desarrolla (DevEngage.AI).
-
-### 3.3 Para pitch decks y presentaciones
-
-- Usar:
-  - `modernash-pitch-deck.md`
-  - `modernash-devengage-pitch-deck.md`
-- Cada archivo está estructurado como:
-  - `Slide 1 – Título...`
-  - `Slide 2 – ...`
-- Convertir esos bloques en slides en tu herramienta preferida (PowerPoint, Keynote, Google Slides, etc.).
-
----
-
-## 4. Convenciones y estilo
-
-- **Idioma**:
-  - Documentos para AWS Marketplace: **inglés**.  
-  - Landings y pitch decks internos/comerciales: **español**, salvo que se indiquen versiones en inglés más adelante.
-
-- **Logo**:
-  - Todos los documentos deben usar el logo:
-    ```html
-    <p align="center">
-      <img src="assets/logo.png" alt="ModernAsh logo – símbolo minimalista de un ave/phoenix emergiendo de cenizas con degradado naranja/rojo y la palabra ModernAsh en tipografía sans moderna" width="220">
-    </p>
-    ```
-
-- **Nombres de servicios**:
-  - Servicio de modernización:  
-    “**ModernAsh Legacy Modernization PoC – AI-Assisted Low-Cost Introductory Engagement on AWS**”
-  - Servicio de IA para equipos de desarrollo:  
-    “**ModernAsh DevEngage.AI – GenAI-Driven Engineering Enablement on AWS**”
-
----
-
-## 5. Próximos pasos / To-Do (sugerido)
-
-- [ ] Ajustar nombres de archivos y directorios si se decide una estructura `/docs`, `/marketplace`, `/pitch`, etc.  
-- [ ] Revisar textos con equipo legal/comercial (precio, disclaimers, NDA, etc.).  
-- [ ] Crear versiones **EN** de los pitch decks si se apunta a inversores o partners globales.  
-- [ ] Agregar ejemplos concretos de clientes (cuando existan) como nuevos `.md` o secciones adicionales.
-
----
-
-Si tenés dudas sobre qué archivo usar para cada contexto, el resumen rápido es:
-
-- **Marketplace** → archivos `*-aws-marketplace-product.md`  
-- **Web** → archivos `*-landing-es.md`  
-- **Presentaciones** → archivos `*-pitch-deck.md`
+- Sitio: <https://modern-ash.com/>
+- Agora: <https://modern-ash.com/agora/>
+- DevEngage.AI: <https://modern-ash.com/devengage/>
+- Contacto: <https://modern-ash.com/contacto/>

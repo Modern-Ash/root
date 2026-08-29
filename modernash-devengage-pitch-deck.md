@@ -1,201 +1,119 @@
 <p align="center">
-  <img src="assets/logo.png" alt="ModernAsh logo – símbolo minimalista de un ave/phoenix emergiendo de cenizas con degradado naranja/rojo y la palabra ModernAsh en tipografía sans moderna" width="220">
+  <img src="assets/logo.png" alt="ModernAsh" width="220">
 </p>
 
-# Pitch Deck – ModernAsh DevEngage.AI
+# Pitch Deck — ModernAsh DevEngage.AI
 
----
+## Slide 1 — Adoptá agentes sin perder el control del delivery
 
-## Slide 1 – Title & One-Liner
+DevEngage.AI es el servicio profesional de ModernAsh para implementar un piloto de delivery gobernado con Agora en un repositorio real.
 
-**Título:**  
-ModernAsh DevEngage.AI – GenAI-Driven Engineering Enablement
+## Slide 2 — El agente ya está en el equipo
 
-**One-liner:**  
-Integramos IA generativa como un **integrante más** de los equipos de desarrollo, para que produzcan software con más calidad, seguridad, tests, documentación y throughput, sin cambiar de stack ni de framework (Scrum/Kanban).
+- Copilot, asistentes y agentes aparecen antes que las políticas.
+- Cada persona los usa de manera diferente.
+- Seguridad y liderazgo no tienen una vista compartida.
+- El resultado puede llegar; la trazabilidad no.
 
----
+El problema ya no es acceso a IA. Es gobernanza operativa.
 
-## Slide 2 – El problema
+## Slide 3 — Las preguntas que un chat no responde
 
-- Presión creciente: más features, más rápido, con menos bugs y más seguridad.
-- Los devs adoptan Copilot y otras IAs “por las suyas”, sin:
-    - Gobernanza
-    - Buenas prácticas claras
-    - Métricas de impacto
-- Testing y documentación siguen siendo tareas repetitivas y postergadas.
-- Iniciativas de IA aisladas, tipo piloto, sin impacto real en el **workflow** ni en el **producto**.
+- ¿Quién o qué ejecutó?
+- ¿Qué rol y autoridad tenía?
+- ¿Qué decisiones delegó?
+- ¿Qué evidencia produjo?
+- ¿Qué gate habilitó el avance?
+- ¿Quién aceptó el resultado?
 
----
+## Slide 4 — Agora: la base de producto
 
-## Slide 3 – Nuestra propuesta
+Agora es un framework open source, Markdown-first y Git-native que materializa actores, roles, permisos, lifecycle, gates, evidencia, handoffs y aprobaciones.
 
-**ModernAsh DevEngage.AI**  
-Servicio de consultoría que:
+No reemplaza el runtime del agente, Jira, GitHub o CI/CD. Conecta esas herramientas mediante un contrato durable.
 
-- Define cómo se integra la **IA generativa** (Copilot, LLMs, agentes) en el SDLC.
-- Trata a la IA como un **team member** encargado de tareas no creativas (tests, docs, boilerplate).
-- Implementa **Spec Driven Development (SDD)** para que la spec sea el centro del flujo.
-- Es **agnóstico al lenguaje y al workflow**:
-    - Funciona con Java, Python, Node.js, .NET, front, data, etc.
-    - Compatible con Scrum, Kanban y derivados.
+## Slide 5 — DevEngage.AI: el servicio
 
----
+DevEngage.AI no es otra plataforma. Aporta el trabajo necesario para adaptar Agora al contexto del cliente:
 
-## Slide 4 – Producto/Servicio: DevEngage.AI
+- assessment y selección del piloto;
+- diseño del modelo operativo;
+- configuración y adopción del repositorio;
+- coaching sobre trabajo real;
+- evaluación y roadmap.
 
-**Qué incluye:**
+## Slide 6 — Assess
 
-1. **Assessment de madurez de IA**
-    - Stack, herramientas, proceso actual, uso de IA.
+Relevamos:
 
-2. **Diseño del modelo “IA como integrante del equipo”**
-    - Qué hace la IA, qué hace el equipo, cómo se revisa.
+- uso actual de IA y herramientas;
+- workflow y repositorios;
+- seguridad, datos y compliance;
+- decisiones y aprobaciones sensibles;
+- oportunidades y riesgos.
 
-3. **Spec Driven Development**
-    - Plantillas de specs, integración con issues/PRs/CI.
+**Salida:** caso piloto, criterios de éxito y mapa de restricciones.
 
-4. **Workflows con IA**
-    - Código, tests, documentación, refactors automatizados/assistidos.
+## Slide 7 — Design
 
-5. **Capacitación y coaching**
-    - Workshops + acompañamiento en PRs reales.
+Definimos:
 
-6. **Métricas y roadmap de mejora**
-    - Definición de KPIs y plan para escalar a más equipos.
+- actores humanos, AI, servicios y swarms;
+- roles, capacidades y límites;
+- Method Pack y lifecycle;
+- gates y evidencia;
+- autoridad de aprobación;
+- adapters y recuperación.
 
----
+**Salida:** contrato operativo revisable antes de ejecutar.
 
-## Slide 5 – Beneficios clave
+## Slide 8 — Pilot
 
-- **Mayor calidad**  
-  Más test coverage, menos bugs en producción.
+Adoptamos un repositorio y ejecutamos un objetivo real.
 
-- **Más seguridad**  
-  IA como apoyo a secure coding, complementando tus herramientas de seguridad.
+- sesiones y acciones registradas;
+- handoffs explícitos;
+- artefactos y evidencia vinculados;
+- gates verificados;
+- aceptación por el rol autorizado.
 
-- **Más documentación viva**  
-  READMEs, HOWTOs, comentarios de código y changelogs generados/actualizados con IA.
+## Slide 9 — Adopt
 
-- **Más producción sin quemar al equipo**  
-  Las tareas repetitivas las hace la IA; los devs se enfocan en arquitectura y diseño.
+- evaluación del piloto;
+- playbook del equipo;
+- capacitación y onboarding;
+- backlog de mejoras;
+- decisión y roadmap de expansión.
 
-- **Agnóstico al lenguaje y al workflow**  
-  No obligamos a cambiar de metodología ni de stack.
+La meta es que el equipo pueda operar el modelo, no crear dependencia permanente de consultoría.
 
----
+## Slide 10 — Métricas del piloto
 
-## Slide 6 – IA agentic y SDD
+Se define una línea base y se observan, según el caso:
 
-**IA agentic:**
+- tiempo de ciclo y bloqueos;
+- retrabajo y defectos;
+- calidad y completitud de evidencia;
+- tiempos de revisión y aprobación;
+- trazabilidad y adopción.
 
-- Operamos con **objetivos y contexto**, no solo con prompts sueltos.
-- La IA consume specs, código y docs, y produce artefactos (PRs, tests, docs).
+No se prometen porcentajes antes de medir.
 
-**Spec Driven Development:**
+## Slide 11 — Encaje y límites
 
-1. Primero la **spec** (contexto, requisitos, escenario de error, seguridad).
-2. Luego la IA genera propuestas de código, tests y docs.
-3. El equipo revisa, ajusta y aprueba.
+Ideal para equipos que quieren evaluar agentes sobre trabajo real y necesitan autoridad, evidencia y aprendizaje organizacional.
 
-> Resultado: la spec se vuelve el **contrato vivo** entre negocio, equipo y IA.
+Agora está en Alpha `0.x`. El piloto debe revisar permisos, Method Packs, adapters, aislamiento, datos, modelos y recuperación.
 
----
+## Slide 12 — Ecosistema demostrable
 
-## Slide 7 – Cómo se integra con Scrum/Kanban
+- Agora Core: <https://github.com/Modern-Ash/agora>
+- Agora Studio: <https://github.com/Modern-Ash/agora-studio>
+- Truco Agora: <https://github.com/Modern-Ash/truco-agora>
 
-**Scrum:**
+## Slide 13 — Próximo paso
 
-- Refinement: escribir/ajustar specs con apoyo de IA.
-- Planning: estimar y decidir qué partes delegar a IA.
-- Desarrollo: IA genera código, tests y docs sobre las specs.
-- Review: PRs con origen humano + IA, con criterios de aceptación claros.
-- Retro: medir impacto de la IA y ajustar el modelo.
+Elegir un repositorio, un objetivo acotado y los responsables de aprobación. Diseñar el contrato, ejecutar el piloto y decidir con evidencia.
 
-**Kanban / flow:**
-
-- IA integrada por tipo de trabajo (features, bugs, refactors).
-- Políticas explícitas: en qué columnas entra IA, qué checks se exigen antes de “Done”.
-
----
-
-## Slide 8 – Modelo de negocio
-
-- **Engagement DevEngage.AI (4–8 semanas, 1–2 equipos)**
-    - Scope: assessment, diseño de modelo, implementación, capacitación, métricas.
-    - Precio cerrado (publicado como Professional Service en AWS Marketplace).
-
-- **Extensión y escalamiento**
-    - Más equipos, más automatización, agentes custom.
-    - Servicios de acompañamiento continuo (coaching, health checks).
-
-- Contratación a través de **AWS Marketplace** vía **Private Offers**.
-
----
-
-## Slide 9 – Go-to-Market
-
-- **AWS Marketplace – Professional Services**
-    - Oferta listada como ModernAsh DevEngage.AI.
-    - Permite a los clientes contratar usando sus procesos estándar en AWS.
-
-- **Alianzas con AWS y partners de consultoría**
-    - ModernAsh como “especialista IA+engineering” dentro de programas de modernización.
-
-- **Target inicial**
-    - Organizaciones con varios equipos de desarrollo que quieren:
-        - Acelerar con IA.
-        - Mantener control de calidad y seguridad.
-        - Tener un modelo homogéneo de uso de IA entre equipos.
-
----
-
-## Slide 10 – Métricas de impacto (ejemplos)
-
-*(Para ajustar según casos reales más adelante)*
-
-- +X% en test coverage en N semanas.
-- –Y% en lead time/cycle time de features tipo “media complejidad”.
-- Reducción en incidentes post release.
-- % de repos con documentación al día.
-- Nivel de adopción de IA reportado por los devs.
-
----
-
-## Slide 11 – Roadmap
-
-**Corto plazo (0–12 meses)**
-- Cerrar primeros engagements DevEngage.AI en AWS Marketplace.
-- Documentar 3–5 casos de éxito con métricas claras.
-- Afinar toolkit de SDD + agentes de IA.
-
-**Mediano plazo (12–24 meses)**
-- Escalar a programas multi-equipo / multi-país.
-- Ofertas específicas por industria (ej. fintech, telco, retail).
-- Integración más profunda con suites DevOps y plataformas de developer experience.
-
----
-
-## Slide 12 – Equipo (placeholder)
-
-*(Completar con nombres reales)*
-
-- Founder / CEO – Modernización y estrategia de ingeniería.
-- Head of AI Engineering – Experto en IA aplicada a dev y MLOps.
-- Principal Consultant – Diseño de procesos, Scrum/Kanban, SDD.
-- Delivery Lead – Implementación en clientes enterprise.
-
----
-
-## Slide 13 – Cierre & Call to Action
-
-**Mensaje final:**  
-ModernAsh DevEngage.AI convierte la IA generativa en un **integrante real del equipo de desarrollo**, que aumenta calidad, seguridad, testeo, documentación y producción sin romper tus procesos actuales.
-
-**Call to action:**
-
-- Para clientes:  
-  *“Seleccioná 1–2 equipos, ejecutemos DevEngage.AI juntos y midamos el impacto en pocas semanas.”*
-
-- Para partners / AWS:  
-  *“Sumemos DevEngage.AI como componente de tus programas de modernización y productividad de ingeniería.”*
+- Servicio: <https://modern-ash.com/devengage/>
+- Contacto: <https://modern-ash.com/contacto/>
